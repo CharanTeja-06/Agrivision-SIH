@@ -44,13 +44,19 @@ st.markdown(
     }
     .hero-left { max-width: 640px; }
     .hero-title {
-        font-size: 2.2rem;
-        line-height: 1.2;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        text-align: left;
-        word-wrap: break-word;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(120deg,#22c55e,#a855f7,#38bdf8);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0.6rem;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: visible;
 }
+
     .hero-subtitle {
         color: #9ca3af;
         font-size: 0.98rem;
@@ -173,6 +179,23 @@ st.markdown(
         border: 1px solid rgba(74,222,128,0.9);
         color: #bbf7d0;
     }
+
+    @media (max-width: 1200px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    .hero-subtitle {
+        text-align: center;
+    }
+}
+
     </style>
     """,
     unsafe_allow_html=True
