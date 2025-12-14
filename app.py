@@ -44,15 +44,13 @@ st.markdown(
     }
     .hero-left { max-width: 640px; }
     .hero-title {
-        font-size: 2.6rem;
-        line-height: 1.1;
+        font-size: 2.2rem;
+        line-height: 1.2;
         font-weight: 800;
-        letter-spacing: -0.03em;
-        background: linear-gradient(120deg,#22c55e,#a855f7,#38bdf8);
-        -webkit-background-clip: text;
-        color: transparent;
-        margin-bottom: 0.6rem;
-    }
+        letter-spacing: -0.02em;
+        text-align: left;
+        word-wrap: break-word;
+}
     .hero-subtitle {
         color: #9ca3af;
         font-size: 0.98rem;
