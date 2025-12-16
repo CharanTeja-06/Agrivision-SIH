@@ -32,6 +32,10 @@ st.markdown(
     }
 
     .hero {
+        padding-top: 80px;      /* Add 80px gap at top */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
